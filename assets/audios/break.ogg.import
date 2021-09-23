@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/break.ogg-218e0311822a73ca83ddf5180f900ac0.oggstr"
+
+[deps]
+
+source_file="res://assets/audios/break.ogg"
+dest_files=[ "res://.import/break.ogg-218e0311822a73ca83ddf5180f900ac0.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

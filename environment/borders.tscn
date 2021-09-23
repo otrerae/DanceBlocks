@@ -1,0 +1,34 @@
+[gd_scene load_steps=2 format=2]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 1, 1 )
+
+[node name="borders" type="Node2D"]
+
+[node name="border_left" type="StaticBody2D" parent="."]
+
+[node name="col_left" type="CollisionShape2D" parent="border_left"]
+position = Vector2( -4, 256 )
+scale = Vector2( 4, 256 )
+shape = SubResource( 1 )
+
+[node name="border_right" type="StaticBody2D" parent="."]
+
+[node name="col_right" type="CollisionShape2D" parent="border_right"]
+position = Vector2( 292, 256 )
+scale = Vector2( 4, 256 )
+shape = SubResource( 1 )
+
+[node name="border_top" type="StaticBody2D" parent="."]
+
+[node name="col_top" type="CollisionShape2D" parent="border_top"]
+position = Vector2( 144, -4 )
+scale = Vector2( 144, 4 )
+shape = SubResource( 1 )
+
+[node name="border_bottom" type="StaticBody2D" parent="."]
+
+[node name="col_bottom" type="CollisionShape2D" parent="border_bottom"]
+position = Vector2( 144, 540 )
+scale = Vector2( 144, 4 )
+shape = SubResource( 1 )
