@@ -8,7 +8,7 @@ onready var lose_s : AudioStreamPlayer = get_node("lose")
 onready var hit_s : AudioStreamPlayer = get_node("hit")
 
 const SPEED_X = 50
-const SPEED_Y = -300
+const SPEED_Y = -400
 
 var game_started : bool = false
 
